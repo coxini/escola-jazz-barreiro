@@ -1,16 +1,15 @@
 import type { Metadata } from 'next';
-import { Archivo, Cormorant_Garamond } from 'next/font/google';
+import { Manrope, Space_Grotesk } from 'next/font/google';
 import './globals.css';
 
-const archivo = Archivo({
+const manrope = Manrope({
   variable: '--font-sans',
   subsets: ['latin'],
 });
 
-const cormorant = Cormorant_Garamond({
+const spaceGrotesk = Space_Grotesk({
   variable: '--font-display',
   subsets: ['latin'],
-  weight: ['500', '600', '700'],
 });
 
 export const metadata: Metadata = {
@@ -35,7 +34,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="pt">
-      <body className={`${archivo.variable} ${cormorant.variable}`}>{children}</body>
+      <body className={`${manrope.variable} ${spaceGrotesk.variable}`}>{children}</body>
     </html>
   );
 }

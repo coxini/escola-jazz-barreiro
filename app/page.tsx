@@ -105,6 +105,7 @@ export default function Home() {
       <section className="hero" aria-labelledby="hero-title">
         <Image src="/media/hero-palco.jpg" alt="Alunos e professores da Escola de Jazz do Barreiro em palco" fill priority sizes="100vw" className="hero-image" />
         <div className="hero-overlay" />
+        <div className="hero-edition" aria-hidden="true"><span>ANO LETIVO</span><strong>26/27</strong></div>
         <div className="hero-content">
           <p>Escola de Jazz do Barreiro · José Cardoso Ferreira</p>
           <h1 id="hero-title">Inscrições abertas</h1>
@@ -129,6 +130,11 @@ export default function Home() {
             <p>Para mais informações poderá contactar-nos diretamente por aqui e teremos todo o gosto em ajudar.</p>
           </div>
           <a className="text-link" href="#contacto">Falar com a escola <ArrowRight aria-hidden="true" /></a>
+          <div className="school-stats" aria-label="A escola em números">
+            <div><strong>5</strong><span>percursos de formação</span></div>
+            <div><strong>9</strong><span>salas de música</span></div>
+            <div><strong>16</strong><span>docentes</span></div>
+          </div>
         </div>
       </section>
 
@@ -198,7 +204,7 @@ export default function Home() {
       </section>
 
       <section className="cafe section-shell">
-        <div className="cafe-heading"><SectionLabel>Espaço de encontro</SectionLabel><h2>Sala 6 —<br />Be Jazz Café</h2></div>
+        <div className="cafe-heading"><SectionLabel>Espaço de encontro</SectionLabel><h2>Sala 6 —<br />Be Jazz Café</h2><span className="cafe-mark" aria-hidden="true">06</span></div>
         <div className="cafe-copy"><p>No mesmo edifício da Escola funciona a Sala 6 — Be Jazz Café, um bar que funciona como espaço de convívio e divulgação da EJB com audições, concertos, masterclasses e jam sessions.</p></div>
         <div className="cafe-image"><Image src="/media/sala-6.png" alt="Sala 6 — Be Jazz Café" width={1126} height={207} sizes="100vw" /></div>
       </section>
