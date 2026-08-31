@@ -185,7 +185,7 @@ export default function Home() {
       <section className="program-note">
         <p>O Curso Geral de Jazz trabalha swing, bebop, hard bop, latin fusion, free jazz e jazz contemporâneo.</p>
         <a
-          href="https://www.escolajazzbarreiro.pt/_files/ugd/7eb20e_e961cc6d82e64cb1a47530a9023092eb.pdf"
+          href="/documentos/programa-ensino-jazz.pdf"
           target="_blank"
           rel="noreferrer"
         >
@@ -208,7 +208,8 @@ export default function Home() {
         <div className="enrol-details">
           <div><span>Direção pedagógica</span><a href="mailto:ejbdirecaopedagogica@gmail.com">ejbdirecaopedagogica@gmail.com</a></div>
           <div><span>Secretaria</span><a href="mailto:escolajazzdobarreiro@gmail.com">escolajazzdobarreiro@gmail.com</a></div>
-          <div><span>Documentos</span><a href="https://www.escolajazzbarreiro.pt/_files/ugd/7eb20e_184e0fadc8ec42a28660340d029b5424.pdf" target="_blank" rel="noreferrer">Ficha de inscrição 2025/26 <ArrowDown aria-hidden="true" /></a></div>
+          <div><span>Documentos</span><a href="/documentos/ficha-inscricao-2025-26.pdf" target="_blank" rel="noreferrer">Ficha de inscrição 2025/26 <ArrowDown aria-hidden="true" /></a></div>
+          <div><span>Valores</span><a href="/documentos/precario-2025-26.pdf" target="_blank" rel="noreferrer">Preçário 2025/26 <ArrowDown aria-hidden="true" /></a></div>
         </div>
       </section>
 
