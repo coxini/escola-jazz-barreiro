@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Escola de Jazz do Barreiro — José Cardoso Ferreira',
     description: 'Formação em jazz, pop & rock no Barreiro para crianças, jovens e adultos.',
-    images: [{ url: '/og.png', width: 1200, height: 630, alt: 'Escola de Jazz do Barreiro' }],
+    images: [{ url: '/media/hero-palco.jpg', width: 1392, height: 928, alt: 'Escola de Jazz do Barreiro em palco' }],
     locale: 'pt_PT',
     type: 'website',
   },
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Escola de Jazz do Barreiro — José Cardoso Ferreira',
     description: 'Formação em jazz, pop & rock no Barreiro para crianças, jovens e adultos.',
-    images: ['/og.png'],
+    images: ['/media/hero-palco.jpg'],
   },
 };
 
