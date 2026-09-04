@@ -107,7 +107,7 @@ export default function Home() {
         <div className="hero-overlay" />
         <div className="hero-edition" aria-hidden="true"><span>ANO LETIVO</span><strong>26/27</strong></div>
         <div className="hero-content">
-          <p>Escola de Jazz do Barreiro · José Cardoso Ferreira</p>
+          <p>Escola de Jazz do Barreiro</p>
           <h1 id="hero-title">Inscrições abertas</h1>
           <a href="/documentos/ficha-inscricao-2026-27.pdf" target="_blank">
             Ficha de inscrição 2026/2027 <ArrowRight aria-hidden="true" />
